@@ -1,0 +1,18 @@
+# Normalize line endings to LF in repo
+* text=auto eol=lf
+
+# Python files
+*.py text eol=lf
+
+# Notebooks
+*.ipynb text eol=lf
+
+# Markdown, JSON, YAML
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+
+*.py     text eol=lf
+*.ipynb  text eol=lf
