@@ -3,5 +3,11 @@ langchain
 streamlit
 python-dotenv
 PyPDF2
+pdf2image
+pytesseract
+langchain_community
+langchain_groq
+
+
 
 -e .                         # If you have a local package to include, then check for that in the current directory
