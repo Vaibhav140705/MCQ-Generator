@@ -57,7 +57,7 @@ st.markdown(
 
 
 #Loading JSON FILE
-with open(r'C:\Users\hp\Desktop\Projects\MCQ Generator\experiment\Response.json','r') as file:
+with open('experiment/Response.json','r') as file:
     RESPONSE_JSON= json.load(file)
 
 
