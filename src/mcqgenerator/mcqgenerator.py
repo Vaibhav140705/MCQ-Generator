@@ -12,7 +12,7 @@ import traceback                                          # For error handling
 from dotenv import load_dotenv                            # For storing environment variables in local workspace
 import PyPDF2
 
-load_dotenv(dotenv_path="C:\\Users\\hp\\Desktop\\Projects\\MCQ Generator\\experiment\\.env") # Load environment variables from .env file
+load_dotenv() # Load environment variables from .env file
 
 key=os.getenv("GROQ_API_KEY")
 
